@@ -32,13 +32,13 @@
 //! protocol: creating and decoding packets from their byte structure.
 
 
-mod types;
+pub mod types;
 pub use self::types::*;
 
-mod strings;
+pub mod strings;
 pub use self::strings::Labels;
 
-mod wire;
+pub mod wire;
 pub use self::wire::{Wire, WireError, MandatedLength};
 
 pub mod record;
