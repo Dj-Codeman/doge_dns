@@ -1,9 +1,9 @@
 [package]
 name = "doge_dns"
-version = "0.2.4-beta"
-description = "The dns interaction component of the [doge](https://github.com/Dj-Codeman/doge) package"
+version = "1.0.0"
+description = "The dns interaction component of the doge package"
 homepage = "https://github.com/Dj-Codeman/doge"
-repository = "https://github.com/Dj-Codeman/doge"
+repository = "https://github.com/Dj-Codeman/doge_dns"
 license = "MIT"
 authors = ["Darrion Whitfield <dwhitfield@ramfield.net>"]
 edition = "2018"

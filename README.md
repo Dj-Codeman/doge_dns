@@ -1,0 +1,1 @@
+doge_dns is the lib responsible for the dns record parsing and returning in the (doge) progect 
