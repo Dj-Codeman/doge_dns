@@ -39,6 +39,8 @@ impl OPENPGPKEY {
 
     /// The base64-encoded PGP key.
     pub fn base64_key(&self) -> String {
+        // TODO find different crate for b64
+        #[allow(deprecated)]
         base64::encode(&self.key)
     }
 }
